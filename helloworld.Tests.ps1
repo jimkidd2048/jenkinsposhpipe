@@ -3,6 +3,9 @@ $sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path) -replace '\.Tests\.', '.'
 . "$here\$sut"
 
 Describe "helloworld" {
+    It "output is 11 characters" {
+        (helloworld).length | Should -Be 11
+    }
     It "output Hello Wold" {
         helloworld | Should -BeExactly "Hello World"
     }
