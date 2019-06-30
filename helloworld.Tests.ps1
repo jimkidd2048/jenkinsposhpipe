@@ -7,7 +7,7 @@ Describe "helloworld" {
         (helloworld).length | Should -Be 11
     }
     It "output Hello Wold starts with H" {
-        (helloworld)[0] | Should -BeExactly "H"
+        (helloworld)[0] | Should -BeExactly "A"
     }
     It "output Hello Wold" {
         helloworld | Should -BeExactly "Hello World"
