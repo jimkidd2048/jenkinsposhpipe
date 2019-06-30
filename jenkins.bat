@@ -1,1 +1,1 @@
-powershell.exe -command "Invoke-Pester -OutputFormat NUnitXml -Quiet"
+powershell.exe -command "Invoke-Pester -OutputFormat NUnitXml -OutputFile .\ -Quiet"
