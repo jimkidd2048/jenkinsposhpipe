@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="3" errors="0" failures="3" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-07-09" time="22:44:18">
+  <environment user="Jim" machine-name="JIMPC" cwd="C:\Users\Jim\documents\GitHub\jenkinsposhpipe" user-domain="JimPC" platform="Microsoft Windows 10 Pro|C:\WINDOWS|\Device\Harddisk0\Partition2" nunit-version="2.5.8.0" os-version="10.0.18362" clr-version="4.0.30319.42000" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Powershell" name="Pester" executed="True" result="Failure" success="False" time="0.9527" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="helloworld" executed="True" result="Failure" success="False" time="0.9527" asserts="0" description="helloworld">
+        <results>
+          <test-case description="output is 11 characters" name="helloworld.output is 11 characters" time="0.6721" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files (x86)\WindowsPowerShell\Modules\pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="output Hello World starts with H" name="helloworld.output Hello World starts with H" time="0.2261" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-BeExactly' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files (x86)\WindowsPowerShell\Modules\pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="output Hello World" name="helloworld.output Hello World" time="0.0544" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-BeExactly' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files (x86)\WindowsPowerShell\Modules\pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
