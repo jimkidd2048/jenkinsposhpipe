@@ -9,9 +9,9 @@ $ vagrant ssh
 ip a
 ping the two interfaces to see which is accessible
 connect to ansible web gui
-https://<pingable IP>
+https://'pingable IP'
 
 User: admin
 Password: password
 
-Request a trial license
+Request a trial license  (and never hear back from RedHat)
