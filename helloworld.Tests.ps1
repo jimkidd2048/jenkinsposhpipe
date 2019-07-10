@@ -6,10 +6,10 @@ Describe "helloworld" {
     It "output is 11 characters" {
         (helloworld).length | Should -Be 11
     }
-    It "output Hello Wold starts with H" {
+    It "output Hello World starts with H" {
         (helloworld)[0] | Should -BeExactly "H"
     }
-    It "output Hello Wold" {
+    It "output Hello World" {
         helloworld | Should -BeExactly "Hello World"
     }
 }
